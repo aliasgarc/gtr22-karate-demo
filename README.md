@@ -37,7 +37,7 @@ Refreance-https://github.com/karatelabs/karate
     5. VS Code Extension - 
     5.1 Karate Runner
     5.2 Cucumber (Gherkin) Full Support
-    image.png
+  
 
 
 
@@ -45,11 +45,6 @@ Refreance-https://github.com/karatelabs/karate
  
    Make sure you install the plugins required for karate
     
-    .Cucumber for java : Click on File -> Settings -> Plugins -> MarketPlace -> Search Cucumber for Java
-
-
-
-    .Gerkin plugin : Click on File -> Settings -> Plugins -> MarketPlace -> Search Gherkin Plugin
 
 
 
