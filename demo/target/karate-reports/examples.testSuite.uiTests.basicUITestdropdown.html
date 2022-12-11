@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="res/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="res/karate-report.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="res/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="res/bootstrap.min.js"></script>
+    <script type="text/javascript" src="res/karate-report.js"></script>
+    <script type="text/javascript" src="res/Resemble.js"></script>
+    <script>
+!function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.async=!0,p.src=s.api_host+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="capture identify alias people.set people.set_once set_config register register_once unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled onFeatureFlags".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
+  api_host:'https://app.posthog.com',
+  persistence:'localStorage',
+  autocapture:false,
+  capture_pageview:false,
+  api_transport:'sendBeacon',
+  loaded: function(posthog) { 
+    posthog.identify("0bfd6e32-8356-4ef0-82dd-e042d4fd52c9",{name:"lenovo"});
+    posthog.capture("report_feature",{karate_version:"1.3.0",karate_meta:null});
+  }
+});
+</script>
+
+    <title>examples.testSuite.uiTests.basicUITestdropdown</title>  
+  </head>
+  <body>   
+    <div id="root-container">
+      <div id="leftnav">
+                
+        <div>
+  <div class="nav-logo">
+    <a href="https://karatelabs.io">
+      <img src="karate-labs-logo-ring.svg" alt="Karate Labs"/>
+    </a>
+    <div class="nav-count">
+      <div id="nav-pass" class="bg-success">1</div>
+      <div id="nav-fail" class="bg-danger">0</div>
+    </div>
+  </div>
+  <div id="nav-type">
+    <div>Scenarios</div>
+  </div>         
+  <div id="nav-date">
+    <div>2022-12-11 12:42:49 pm</div>
+  </div>        
+</div>
+
+        <div class="nav-container">
+          <div class="nav-item passed">
+            <a href="#[1:6]"><span>[1:6]</span> <span>Drop Down</span></a>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="page-heading alert alert-primary">
+          <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
+          <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
+          <span class="feature-label">Feature:</span>
+          <span class="feature-path">examples/testSuite/uiTests/basicUITestdropdown.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">UI Test with DropDown</span>
+          <span class="feature-description"></span>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1:6]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                <a class="badge badge-primary" href="karate-tags.html">basicUITestdropdown</a>
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1:6]</span>
+                <span class="scenario-name">Drop Down</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>19456</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1:6]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1:6]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>configure driver = { type: &#39;chrome&#39;, showDriverLog: true }</span>
+      </div>
+    </div>
+    <div class="time-cell passed">59</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.4">12:42:29.482 karate.env system property was: null 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.7">
+      <div class="step-ref passed">7</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>driver &#39;https://semantic-ui.com/modules/dropdown.html&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">14760</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.7">12:42:35.426 request:
+1 &gt; GET http://localhost:9222/json
+1 &gt; Host: localhost:9222
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.4.1)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+12:42:35.430 response time in milliseconds: 3
+1 &lt; 200
+1 &lt; Content-Length: 1278
+1 &lt; Content-Type: application/json; charset=UTF-8
+[ {
+   &quot;description&quot;: &quot;&quot;,
+   &quot;devtoolsFrontendUrl&quot;: &quot;/devtools/inspector.html?ws=localhost:9222/devtools/page/B8287D95028FE400C2E32D089B231385&quot;,
+   &quot;id&quot;: &quot;B8287D95028FE400C2E32D089B231385&quot;,
+   &quot;title&quot;: &quot;Google Network Speech&quot;,
+   &quot;type&quot;: &quot;background_page&quot;,
+   &quot;url&quot;: &quot;chrome-extension://neajdppkdcdipfabeoofebfddakdcjhd/_generated_background_page.html&quot;,
+   &quot;webSocketDebuggerUrl&quot;: &quot;ws://localhost:9222/devtools/page/B8287D95028FE400C2E32D089B231385&quot;
+}, {
+   &quot;description&quot;: &quot;&quot;,
+   &quot;devtoolsFrontendUrl&quot;: &quot;/devtools/inspector.html?ws=localhost:9222/devtools/page/6C375DA877BE78415D8129B1DAB3DB29&quot;,
+   &quot;id&quot;: &quot;6C375DA877BE78415D8129B1DAB3DB29&quot;,
+   &quot;title&quot;: &quot;Google Hangouts&quot;,
+   &quot;type&quot;: &quot;background_page&quot;,
+   &quot;url&quot;: &quot;chrome-extension://nkeimhogjdpnpccoofpliimaahmaaome/background.html&quot;,
+   &quot;webSocketDebuggerUrl&quot;: &quot;ws://localhost:9222/devtools/page/6C375DA877BE78415D8129B1DAB3DB29&quot;
+}, {
+   &quot;description&quot;: &quot;&quot;,
+   &quot;devtoolsFrontendUrl&quot;: &quot;/devtools/inspector.html?ws=localhost:9222/devtools/page/DA74B29C1B5FC626F061E9DBDC559B3D&quot;,
+   &quot;id&quot;: &quot;DA74B29C1B5FC626F061E9DBDC559B3D&quot;,
+   &quot;title&quot;: &quot;Welcome to Chrome&quot;,
+   &quot;type&quot;: &quot;page&quot;,
+   &quot;url&quot;: &quot;chrome://welcome/&quot;,
+   &quot;webSocketDebuggerUrl&quot;: &quot;ws://localhost:9222/devtools/page/DA74B29C1B5FC626F061E9DBDC559B3D&quot;
+} ]
+
+
+12:42:35.444 root frame id: DA74B29C1B5FC626F061E9DBDC559B3D
+12:42:38.249 &gt;&gt; {&quot;id&quot;:1,&quot;method&quot;:&quot;Target.attachToTarget&quot;,&quot;params&quot;:{&quot;targetId&quot;:&quot;DA74B29C1B5FC626F061E9DBDC559B3D&quot;,&quot;flatten&quot;:true}}
+12:42:38.287 &lt;&lt; {&quot;method&quot;:&quot;Target.attachedToTarget&quot;,&quot;params&quot;:{&quot;sessionId&quot;:&quot;956691CF0AF5036A8EB2CF79924CBE80&quot;,&quot;targetInfo&quot;:{&quot;targetId&quot;:&quot;DA74B29C1B5FC626F061E9DBDC559B3D&quot;,&quot;type&quot;:&quot;page&quot;,&quot;title&quot;:&quot;Welcome to Chrome&quot;,&quot;url&quot;:&quot;chrome://welcome/&quot;,&quot;attached&quot;:true,&quot;canAccessOpener&quot;:false,&quot;browserContextId&quot;:&quot;86A8C5A96581C628B6730D134E17739F&quot;},&quot;waitingForDebugger&quot;:false}}
+12:42:38.290 &lt;&lt; {&quot;id&quot;:1,&quot;result&quot;:{&quot;sessionId&quot;:&quot;956691CF0AF5036A8EB2CF79924CBE80&quot;}}
+12:42:38.291 &gt;&gt; {&quot;id&quot;:2,&quot;sessionId&quot;:&quot;956691CF0AF5036A8EB2CF79924CBE80&quot;,&quot;method&quot;:&quot;Target.activateTarget&quot;,&quot;params&quot;:{&quot;targetId&quot;:&quot;DA74B29C1B5FC626F061E9DBDC559B3D&quot;}}
+12:42:38.297 &lt;&lt; {&quot;id&quot;:2,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;956691CF0AF5036A8EB2CF79924CBE80&quot;}
+12:42:38.299 &gt;&gt; {&quot;id&quot;:3,&quot;sessionId&quot;:&quot;956691CF0AF5036A8EB2CF79924CBE80&quot;,&quot;method&quot;:&quot;Target.setDiscoverTargets&quot;,&quot;params&quot;:{&quot;discover&quot;:true}}
+12:42:38.302 &lt;&lt; {&quot;method&quot;:&quot;Target.targetCreated&quot;,&quot;params&quot;:{&quot;targetInfo&quot;:{&quot;targetId&quot;:&quot;6C375DA877BE78415D8129B1DAB3DB29&quot;,&quot;type&quot;:&quot;background_page&quot;,&quot;title&quot;:&quot;Google Hangouts&quot;,&quot;url&quot;:&quot;chrome-extension://nkeimhogjdpnpccoofpliimaahmaaome/background.html&quot;,&quot;attached&quot;:false,&quot;canAccessOpener&quot;:false,&quot;browserContextId&quot;:&quot;86A8C5A96581C628B6730D134E17739F&quot;}},&quot;sessionId&quot;:&quot;956691CF0AF5036A8EB2CF79924CBE80&quot;}
+12:42:38.304 &lt;&lt; {&quot;method&quot;:&quot;Target.targetCreated&quot;,&quot;params&quot;:{&quot;targetInfo&quot;:{&quot;targetId&quot;:&quot;B8287D95028FE400C2E32D089B231385&quot;,&quot;type&quot;:&quot;background_page&quot;,&quot;title&quot;:&quot;Google Network Speech&quot;,&quot;url&quot;:&quot;chrome-extension://neajdppkdcdipfabeoofebfddakdcjhd/_generated_background_page.html&quot;,&quot;attached&quot;:false,&quot;canAccessOpener&quot;:false,&quot;browserContextId&quot;:&quot;86A8C5A96581C628B6730D134E17739F&quot;}},&quot;sessionId&quot;:&quot;956691CF0AF5036A8EB2CF79924CBE80&quot;}
+12:42:38.305 &lt;&lt; {&quot;method&quot;:&quot;Target.targetCreated&quot;,&quot;params&quot;:{&quot;targetInfo&quot;:{&quot;targetId&quot;:&quot;DA74B29C1B5FC626F061E9DBDC559B3D&quot;,&quot;type&quot;:&quot;page&quot;,&quot;title&quot;:&quot;Welcome to Chrome&quot;,&quot;url&quot;:&quot;chrome://welcome/&quot;,&quot;attached&quot;:true,&quot;canAccessOpener&quot;:false,&quot;browserContextId&quot;:&quot;86A8C5A96581C628B6730D134E17739F&quot;}},&quot;sessionId&quot;:&quot;956691CF0AF5036A8EB2CF79924CBE80&quot;}
+12:42:38.306 &lt;&lt; {&quot;id&quot;:3,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;956691CF0AF5036A8EB2CF79924CBE80&quot;}
+12:42:38.309 &gt;&gt; {&quot;id&quot;:4,&quot;sessionId&quot;:&quot;956691CF0AF5036A8EB2CF79924CBE80&quot;,&quot;method&quot;:&quot;Page.enable&quot;}
+12:42:38.321 &lt;&lt; {&quot;id&quot;:4,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;956691CF0AF5036A8EB2CF79924CBE80&quot;}
+12:42:38.324 &gt;&gt; {&quot;id&quot;:5,&quot;sessionId&quot;:&quot;956691CF0AF5036A8EB2CF79924CBE80&quot;,&quot;method&quot;:&quot;Runtime.enable&quot;}
+12:42:38.331 &lt;&lt; {&quot;method&quot;:&quot;Runtime.executionContextCreated&quot;,&quot;params&quot;:{&quot;context&quot;:{&quot;id&quot;:1,&quot;origin&quot;:&quot;chrome://welcome&quot;,&quot;name&quot;:&quot;&quot;,&quot;uniqueId&quot;:&quot;2065162215117131417.412390383309064485&quot;,&quot;auxData&quot;:{&quot;isDefault&quot;:true,&quot;type&quot;:&quot;default&quot;,&quot;frameId&quot;:&quot;DA74B29C1B5FC626F061E9DBDC559B3D&quot;}}},&quot;sessionId&quot;:&quot;956691CF0AF5036A8EB2CF79924CBE80&quot;}
+12:42:38.333 &lt;&lt; {&quot;id&quot;:5,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;956691CF0AF5036A8EB2CF79924CBE80&quot;}
+12:42:38.334 &gt;&gt; {&quot;id&quot;:6,&quot;sessionId&quot;:&quot;956691CF0AF5036A8EB2CF79924CBE80&quot;,&quot;method&quot;:&quot;Browser.getWindowForTarget&quot;,&quot;params&quot;:{&quot;targetId&quot;:&quot;DA74B29C1B5FC626F061E9DBDC559B3D&quot;}}
+12:42:38.337 &lt;&lt; {&quot;id&quot;:6,&quot;result&quot;:{&quot;windowId&quot;:1192540868,&quot;bounds&quot;:{&quot;left&quot;:9,&quot;top&quot;:9,&quot;width&quot;:1051,&quot;height&quot;:806,&quot;windowState&quot;:&quot;normal&quot;}},&quot;sessionId&quot;:&quot;956691CF0AF5036A8EB2CF79924CBE80&quot;}
+12:42:39.191 &gt;&gt; {&quot;id&quot;:7,&quot;sessionId&quot;:&quot;956691CF0AF5036A8EB2CF79924CBE80&quot;,&quot;method&quot;:&quot;Page.navigate&quot;,&quot;params&quot;:{&quot;url&quot;:&quot;https:\/\/semantic-ui.com\/modules\/dropdown.html&quot;}}
+12:42:40.344 &lt;&lt; {&quot;id&quot;:7,&quot;result&quot;:{&quot;frameId&quot;:&quot;DA74B29C1B5FC626F061E9DBDC559B3D&quot;,&quot;loaderId&quot;:&quot;2D43F62BC8B114B41A28C878D7BD600B&quot;},&quot;sessionId&quot;:&quot;956691CF0AF5036A8EB2CF79924CBE80&quot;}
+12:42:40.350 &lt;&lt; {&quot;method&quot;:&quot;Runtime.executionContextsCleared&quot;,&quot;params&quot;:{},&quot;sessionId&quot;:&quot;956691CF0AF5036A8EB2CF79924CBE80&quot;}
+12:42:40.355 &lt;&lt; {&quot;method&quot;:&quot;Page.frameStartedLoading&quot;,&quot;params&quot;:{&quot;frameId&quot;:&quot;DA74B29C1B5FC626F061E9DBDC559B3D&quot;},&quot;sessionId&quot;:&quot;956691CF0AF5036A8EB2CF79924CBE80&quot;}
+12:42:40.383 &lt;&lt; {&quot;method&quot;:&quot;Target.targetInfoChanged&quot;,&quot;params&quot;:{&quot;targetInfo&quot;:{&quot;targetId&quot;:&quot;DA74B29C1B5FC626F061E9DBDC559B3D&quot;,&quot;type&quot;:&quot;page&quot;,&quot;title&quot;:&quot;https://semantic-ui.com/modules/dropdown.html&quot;,&quot;url&quot;:&quot;https://semantic-ui.com/modules/dropdown.html&quot;,&quot;attached&quot;:true,&quot;canAccessOpener&quot;:false,&quot;browserContextId&quot;:&quot;86A8C5A96581C628B6730D134E17739F&quot;}},&quot;sessionId&quot;:&quot;956691CF0AF5036A8EB2CF79924CBE80&quot;}
+12:42:40.387 &lt;&lt; {&quot;method&quot;:&quot;Runtime.executionContextsCleared&quot;,&quot;params&quot;:{},&quot;sessionId&quot;:&quot;956691CF0AF5036A8EB2CF79924CBE80&quot;}
+12:42:40.388 &lt;&lt; {&quot;method&quot;:&quot;Page.frameNavigated&quot;,&quot;params&quot;:{&quot;frame&quot;:{&quot;id&quot;:&quot;DA74B29C1B5FC626F061E9DBDC559B3D&quot;,&quot;loaderId&quot;:&quot;2D43F62BC8B114B41A28C878D7BD600B&quot;,&quot;url&quot;:&quot;https://semantic-ui.com/modules/dropdown.html&quot;,&quot;domainAndRegistry&quot;:&quot;semantic-ui.com&quot;,&quot;securityOrigin&quot;:&quot;https://semantic-ui.com&quot;,&quot;mimeType&quot;:&quot;text/html&quot;,&quot;adFrameStatus&quot;:{&quot;adFrameType&quot;:&quot;none&quot;},&quot;secureContextType&quot;:&quot;Secure&quot;,&quot;crossOriginIsolatedContextType&quot;:&quot;NotIsolated&quot;,&quot;gatedAPIFeatures&quot;:[]},&quot;type&quot;:&quot;Navigation&quot;},&quot;sessionId&quot;:&quot;956691CF0AF5036A8EB2CF79924CBE80&quot;}
+12:42:40.391 &lt;&lt; {&quot;method&quot;:&quot;Runtime.executionContextCreated&quot;,&quot;params&quot;:{&quot;context&quot;:{&quot;id&quot;:1,&quot;origin&quot;:&quot;https://semantic-ui.com&quot;,&quot;name&quot;:&quot;&quot;,&quot;uniqueId&quot;:&quot;-8345771319403749031.6028366471561457695&quot;,&quot;auxData&quot;:{&quot;isDefault&quot;:true,&quot;type&quot;:&quot;default&quot;,&quot;frameId&quot;:&quot;DA74B29C1B5FC626F061E9DBDC559B3D&quot;}}},&quot;sessionId&quot;:&quot;956691CF0AF5036A8EB2CF79924CBE80&quot;}
+12:42:42.025 &lt;&lt; {&quot;method&quot;:&quot;Page.frameAttached&quot;,&quot;params&quot;:{&quot;frameId&quot;:&quot;2D25916D8C6AA4D40B841375FA0A511E&quot;,&quot;parentFrameId&quot;:&quot;DA74B29C1B5FC626F061E9DBDC559B3D&quot;},&quot;sessionId&quot;:&quot;956691CF0AF5036A8EB2CF79924CBE80&quot;}
+12:42:42.033 &lt;&lt; {&quot;method&quot;:&quot;Page.frameStartedLoading&quot;,&quot;params&quot;:{&quot;frameId&quot;:&quot;2D25916D8C6AA4D40B841375FA0A511E&quot;},&quot;sessionId&quot;:&quot;956691CF0AF5036A8EB2CF79924CBE80&quot;}
+12:42:42.191 &lt;&lt; {&quot;method&quot;:&quot;Page.frameAttached&quot;,&quot;params&quot;:{&quot;frameId&quot;:&quot;C14E6CFB196C5E26C2D3C2BB71567593&quot;,&quot;parentFrameId&quot;:&quot;DA74B29C1B5FC626F061E9DBDC559B3D&quot;},&quot;sessionId&quot;:&quot;956691CF0AF5036A8EB2CF79924CBE80&quot;}
+12:42:42.194 &lt;&lt; {&quot;method&quot;:&quot;Page.frameStartedLoading&quot;,&quot;params&quot;:{&quot;frameId&quot;:&quot;C14E6CFB196C5E26C2D3C2BB71567593&quot;},&quot;sessionId&quot;:&quot;956691CF0AF5036A8EB2CF79924CBE80&quot;}
+12:42:42.843 &lt;&lt; {&quot;method&quot;:&quot;Target.targetCreated&quot;,&quot;params&quot;:{&quot;targetInfo&quot;:{&quot;targetId&quot;:&quot;C14E6CFB196C5E26C2D3C2BB71567593&quot;,&quot;type&quot;:&quot;iframe&quot;,&quot;title&quot;:&quot;&quot;,&quot;url&quot;:&quot;&quot;,&quot;attached&quot;:false,&quot;canAccessOpener&quot;:false,&quot;browserContextId&quot;:&quot;86A8C5A96581C628B6730D134E17739F&quot;}},&quot;sessionId&quot;:&quot;956691CF0AF5036A8EB2CF79924CBE80&quot;}
+12:42:42.844 &lt;&lt; {&quot;method&quot;:&quot;Target.targetCreated&quot;,&quot;params&quot;:{&quot;targetInfo&quot;:{&quot;targetId&quot;:&quot;2D25916D8C6AA4D40B841375FA0A511E&quot;,&quot;type&quot;:&quot;iframe&quot;,&quot;title&quot;:&quot;&quot;,&quot;url&quot;:&quot;&quot;,&quot;attached&quot;:false,&quot;canAccessOpener&quot;:false,&quot;browserContextId&quot;:&quot;86A8C5A96581C628B6730D134E17739F&quot;}},&quot;sessionId&quot;:&quot;956691CF0AF5036A8EB2CF79924CBE80&quot;}
+12:42:42.853 &lt;&lt; {&quot;method&quot;:&quot;Target.targetInfoChanged&quot;,&quot;params&quot;:{&quot;targetInfo&quot;:{&quot;targetId&quot;:&quot;C14E6CFB196C5E26C2D3C2BB71567593&quot;,&quot;type&quot;:&quot;iframe&quot;,&quot;title&quot;:&quot;https://ghbtns.com/github-btn.html?user=semantic-org&amp;repo=semantic-ui&amp;type=star&amp;count=true&amp;&quot;,&quot;url&quot;:&quot;https://ghbtns.com/github-btn.html?user=semantic-org&amp;repo=semantic-ui&amp;type=star&amp;count=true&amp;&quot;,&quot;attached&quot;:false,&quot;canAccessOpener&quot;:false,&quot;browserContextId&quot;:&quot;86A8C5A96581C628B6730D134E17739F&quot;}},&quot;sessionId&quot;:&quot;956691CF0AF5036A8EB2CF79924CBE80&quot;}
+12:42:42.874 &lt;&lt; {&quot;method&quot;:&quot;Target.targetInfoChanged&quot;,&quot;params&quot;:{&quot;targetInfo&quot;:{&quot;targetId&quot;:&quot;2D25916D8C6AA4D40B841375FA0A511E&quot;,&quot;type&quot;:&quot;iframe&quot;,&quot;title&quot;:&quot;https://ghbtns.com/github-btn.html?user=semantic-org&amp;repo=semantic-ui&amp;type=watch&amp;count=true&quot;,&quot;url&quot;:&quot;https://ghbtns.com/github-btn.html?user=semantic-org&amp;repo=semantic-ui&amp;type=watch&amp;count=true&quot;,&quot;attached&quot;:false,&quot;canAccessOpener&quot;:false,&quot;browserContextId&quot;:&quot;86A8C5A96581C628B6730D134E17739F&quot;}},&quot;sessionId&quot;:&quot;956691CF0AF5036A8EB2CF79924CBE80&quot;}
+12:42:43.361 &lt;&lt; {&quot;method&quot;:&quot;Page.domContentEventFired&quot;,&quot;params&quot;:{&quot;timestamp&quot;:681226.378983},&quot;sessionId&quot;:&quot;956691CF0AF5036A8EB2CF79924CBE80&quot;}
+12:42:44.413 &lt;&lt; {&quot;method&quot;:&quot;Page.frameStoppedLoading&quot;,&quot;params&quot;:{&quot;frameId&quot;:&quot;C14E6CFB196C5E26C2D3C2BB71567593&quot;},&quot;sessionId&quot;:&quot;956691CF0AF5036A8EB2CF79924CBE80&quot;}
+12:42:44.420 &lt;&lt; {&quot;method&quot;:&quot;Page.frameDetached&quot;,&quot;params&quot;:{&quot;frameId&quot;:&quot;C14E6CFB196C5E26C2D3C2BB71567593&quot;,&quot;reason&quot;:&quot;swap&quot;},&quot;sessionId&quot;:&quot;956691CF0AF5036A8EB2CF79924CBE80&quot;}
+12:42:44.424 &lt;&lt; {&quot;method&quot;:&quot;Page.frameStoppedLoading&quot;,&quot;params&quot;:{&quot;frameId&quot;:&quot;2D25916D8C6AA4D40B841375FA0A511E&quot;},&quot;sessionId&quot;:&quot;956691CF0AF5036A8EB2CF79924CBE80&quot;}
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.8">
+      <div class="step-ref passed">8</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>def locator = &quot;select[name=skills]&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.9">
+      <div class="step-ref passed">9</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>scroll(locator)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2570</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.9">12:42:44.446 &lt;&lt; {&quot;method&quot;:&quot;Page.frameDetached&quot;,&quot;params&quot;:{&quot;frameId&quot;:&quot;2D25916D8C6AA4D40B841375FA0A511E&quot;,&quot;reason&quot;:&quot;swap&quot;},&quot;sessionId&quot;:&quot;956691CF0AF5036A8EB2CF79924CBE80&quot;}
+12:42:44.463 &gt;&gt; {&quot;id&quot;:8,&quot;sessionId&quot;:&quot;956691CF0AF5036A8EB2CF79924CBE80&quot;,&quot;method&quot;:&quot;Runtime.evaluate&quot;,&quot;params&quot;:{&quot;expression&quot;:&quot;(function(){ var fun = function(e){ var d = window.getComputedStyle(e).display; while(d == &#39;none&#39;){ e = e.parentElement; d = window.getComputedStyle(e).display } e.scrollIntoView({block: &#39;center&#39;}) }; var e = document.querySelector(\&quot;select[name=skills]\&quot;); return fun(e) })()&quot;,&quot;returnByValue&quot;:true}}
+12:42:46.194 &lt;&lt; {&quot;method&quot;:&quot;Page.frameAttached&quot;,&quot;params&quot;:{&quot;frameId&quot;:&quot;15FE1A2495FEE7E2C01EEE6F74053217&quot;,&quot;parentFrameId&quot;:&quot;DA74B29C1B5FC626F061E9DBDC559B3D&quot;,&quot;stack&quot;:{&quot;callFrames&quot;:[{&quot;functionName&quot;:&quot;load&quot;,&quot;scriptId&quot;:&quot;28&quot;,&quot;url&quot;:&quot;https://platform.twitter.com/widgets.js&quot;,&quot;lineNumber&quot;:7,&quot;columnNumber&quot;:34029},{&quot;functionName&quot;:&quot;load&quot;,&quot;scriptId&quot;:&quot;28&quot;,&quot;url&quot;:&quot;https://platform.twitter.com/widgets.js&quot;,&quot;lineNumber&quot;:0,&quot;columnNumber&quot;:14673},{&quot;functionName&quot;:&quot;&quot;,&quot;scriptId&quot;:&quot;28&quot;,&quot;url&quot;:&quot;https://platform.twitter.com/widgets.js&quot;,&quot;lineNumber&quot;:7,&quot;columnNumber&quot;:15473},{&quot;functionName&quot;:&quot;o&quot;,&quot;scriptId&quot;:&quot;28&quot;,&quot;url&quot;:&quot;https://platform.twitter.com/widgets.js&quot;,&quot;lineNumber&quot;:7,&quot;columnNumber&quot;:65040},{&quot;functionName&quot;:&quot;&quot;,&quot;scriptId&quot;:&quot;28&quot;,&quot;url&quot;:&quot;https://platform.twitter.com/widgets.js&quot;,&quot;lineNumber&quot;:7,&quot;columnNumber&quot;:15458},{&quot;functionName&quot;:&quot;i&quot;,&quot;scriptId&quot;:&quot;28&quot;,&quot;url&quot;:&quot;https://platform.twitter.com/widgets.js&quot;,&quot;lineNumber&quot;:0,&quot;columnNumber&quot;:627},{&quot;functionName&quot;:&quot;&quot;,&quot;scriptId&quot;:&quot;28&quot;,&quot;url&quot;:&quot;https://platform.twitter.com/widgets.js&quot;,&quot;lineNumber&quot;:0,&quot;columnNumber&quot;:2754},{&quot;functionName&quot;:&quot; ...
+12:42:46.200 &lt;&lt; {&quot;method&quot;:&quot;Page.frameStartedLoading&quot;,&quot;params&quot;:{&quot;frameId&quot;:&quot;15FE1A2495FEE7E2C01EEE6F74053217&quot;},&quot;sessionId&quot;:&quot;956691CF0AF5036A8EB2CF79924CBE80&quot;}
+12:42:46.432 &lt;&lt; {&quot;method&quot;:&quot;Target.targetCreated&quot;,&quot;params&quot;:{&quot;targetInfo&quot;:{&quot;targetId&quot;:&quot;15FE1A2495FEE7E2C01EEE6F74053217&quot;,&quot;type&quot;:&quot;iframe&quot;,&quot;title&quot;:&quot;&quot;,&quot;url&quot;:&quot;&quot;,&quot;attached&quot;:false,&quot;canAccessOpener&quot;:false,&quot;browserContextId&quot;:&quot;86A8C5A96581C628B6730D134E17739F&quot;}},&quot;sessionId&quot;:&quot;956691CF0AF5036A8EB2CF79924CBE80&quot;}
+12:42:46.610 &lt;&lt; {&quot;method&quot;:&quot;Target.targetInfoChanged&quot;,&quot;params&quot;:{&quot;targetInfo&quot;:{&quot;targetId&quot;:&quot;15FE1A2495FEE7E2C01EEE6F74053217&quot;,&quot;type&quot;:&quot;iframe&quot;,&quot;title&quot;:&quot;https://platform.twitter.com/widgets/widget_iframe.644279d1635fd969e87af94a98bd232b.html?origin=https%3A%2F%2Fsemantic-ui.com&quot;,&quot;url&quot;:&quot;https://platform.twitter.com/widgets/widget_iframe.644279d1635fd969e87af94a98bd232b.html?origin=https%3A%2F%2Fsemantic-ui.com&quot;,&quot;attached&quot;:false,&quot;canAccessOpener&quot;:false,&quot;browserContextId&quot;:&quot;86A8C5A96581C628B6730D134E17739F&quot;}},&quot;sessionId&quot;:&quot;956691CF0AF5036A8EB2CF79924CBE80&quot;}
+12:42:46.994 &lt;&lt; {&quot;id&quot;:8,&quot;result&quot;:{&quot;result&quot;:{&quot;type&quot;:&quot;undefined&quot;}},&quot;sessionId&quot;:&quot;956691CF0AF5036A8EB2CF79924CBE80&quot;}
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.10">
+      <div class="step-ref passed">10</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>click(locator)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">584</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.10">12:42:47.005 &gt;&gt; {&quot;id&quot;:9,&quot;sessionId&quot;:&quot;956691CF0AF5036A8EB2CF79924CBE80&quot;,&quot;method&quot;:&quot;Runtime.evaluate&quot;,&quot;params&quot;:{&quot;expression&quot;:&quot;document.querySelector(\&quot;select[name=skills]\&quot;).click()&quot;,&quot;returnByValue&quot;:true}}
+12:42:47.268 &lt;&lt; {&quot;method&quot;:&quot;Page.frameStoppedLoading&quot;,&quot;params&quot;:{&quot;frameId&quot;:&quot;15FE1A2495FEE7E2C01EEE6F74053217&quot;},&quot;sessionId&quot;:&quot;956691CF0AF5036A8EB2CF79924CBE80&quot;}
+12:42:47.271 &lt;&lt; {&quot;method&quot;:&quot;Page.frameDetached&quot;,&quot;params&quot;:{&quot;frameId&quot;:&quot;15FE1A2495FEE7E2C01EEE6F74053217&quot;,&quot;reason&quot;:&quot;swap&quot;},&quot;sessionId&quot;:&quot;956691CF0AF5036A8EB2CF79924CBE80&quot;}
+12:42:47.583 &lt;&lt; {&quot;id&quot;:9,&quot;result&quot;:{&quot;result&quot;:{&quot;type&quot;:&quot;undefined&quot;}},&quot;sessionId&quot;:&quot;956691CF0AF5036A8EB2CF79924CBE80&quot;}
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.11">
+      <div class="step-ref passed">11</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>click(&#39;div[data-value=css]&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">151</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.11">12:42:47.588 &gt;&gt; {&quot;id&quot;:10,&quot;sessionId&quot;:&quot;956691CF0AF5036A8EB2CF79924CBE80&quot;,&quot;method&quot;:&quot;Runtime.evaluate&quot;,&quot;params&quot;:{&quot;expression&quot;:&quot;document.querySelector(\&quot;div[data-value=css]\&quot;).click()&quot;,&quot;returnByValue&quot;:true}}
+12:42:47.733 &lt;&lt; {&quot;id&quot;:10,&quot;result&quot;:{&quot;result&quot;:{&quot;type&quot;:&quot;undefined&quot;}},&quot;sessionId&quot;:&quot;956691CF0AF5036A8EB2CF79924CBE80&quot;}
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.12">
+      <div class="step-ref passed">12</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>click(&#39;div[data-value=html]&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">104</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.12">12:42:47.738 &gt;&gt; {&quot;id&quot;:11,&quot;sessionId&quot;:&quot;956691CF0AF5036A8EB2CF79924CBE80&quot;,&quot;method&quot;:&quot;Runtime.evaluate&quot;,&quot;params&quot;:{&quot;expression&quot;:&quot;document.querySelector(\&quot;div[data-value=html]\&quot;).click()&quot;,&quot;returnByValue&quot;:true}}
+12:42:47.839 &lt;&lt; {&quot;id&quot;:11,&quot;result&quot;:{&quot;result&quot;:{&quot;type&quot;:&quot;undefined&quot;}},&quot;sessionId&quot;:&quot;956691CF0AF5036A8EB2CF79924CBE80&quot;}
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.13">
+      <div class="step-ref passed">13</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>click(&#39;div[data-value=ember]&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">170</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.13">12:42:47.843 &gt;&gt; {&quot;id&quot;:12,&quot;sessionId&quot;:&quot;956691CF0AF5036A8EB2CF79924CBE80&quot;,&quot;method&quot;:&quot;Runtime.evaluate&quot;,&quot;params&quot;:{&quot;expression&quot;:&quot;document.querySelector(\&quot;div[data-value=ember]\&quot;).click()&quot;,&quot;returnByValue&quot;:true}}
+12:42:47.985 &lt;&lt; {&quot;method&quot;:&quot;Target.targetDestroyed&quot;,&quot;params&quot;:{&quot;targetId&quot;:&quot;B8287D95028FE400C2E32D089B231385&quot;},&quot;sessionId&quot;:&quot;956691CF0AF5036A8EB2CF79924CBE80&quot;}
+12:42:47.989 &lt;&lt; {&quot;method&quot;:&quot;Target.targetDestroyed&quot;,&quot;params&quot;:{&quot;targetId&quot;:&quot;6C375DA877BE78415D8129B1DAB3DB29&quot;},&quot;sessionId&quot;:&quot;956691CF0AF5036A8EB2CF79924CBE80&quot;}
+12:42:48.003 &lt;&lt; {&quot;id&quot;:12,&quot;result&quot;:{&quot;result&quot;:{&quot;type&quot;:&quot;undefined&quot;}},&quot;sessionId&quot;:&quot;956691CF0AF5036A8EB2CF79924CBE80&quot;}
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.14">
+      <div class="step-ref passed">14</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>delay(1000)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1055</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.14">12:42:48.804 &lt;&lt; {&quot;method&quot;:&quot;Page.loadEventFired&quot;,&quot;params&quot;:{&quot;timestamp&quot;:681231.851593},&quot;sessionId&quot;:&quot;956691CF0AF5036A8EB2CF79924CBE80&quot;}
+12:42:48.805 &lt;&lt; {&quot;method&quot;:&quot;Page.frameStoppedLoading&quot;,&quot;params&quot;:{&quot;frameId&quot;:&quot;DA74B29C1B5FC626F061E9DBDC559B3D&quot;},&quot;sessionId&quot;:&quot;956691CF0AF5036A8EB2CF79924CBE80&quot;}
+12:42:48.810 &lt;&lt; {&quot;method&quot;:&quot;Page.frameAttached&quot;,&quot;params&quot;:{&quot;frameId&quot;:&quot;D46368040E43D41E888FA3DE55762169&quot;,&quot;parentFrameId&quot;:&quot;DA74B29C1B5FC626F061E9DBDC559B3D&quot;,&quot;stack&quot;:{&quot;callFrames&quot;:[{&quot;functionName&quot;:&quot;_insertionStrategy&quot;,&quot;scriptId&quot;:&quot;28&quot;,&quot;url&quot;:&quot;https://platform.twitter.com/widgets.js&quot;,&quot;lineNumber&quot;:7,&quot;columnNumber&quot;:18312},{&quot;functionName&quot;:&quot;&quot;,&quot;scriptId&quot;:&quot;28&quot;,&quot;url&quot;:&quot;https://platform.twitter.com/widgets.js&quot;,&quot;lineNumber&quot;:0,&quot;columnNumber&quot;:7071},{&quot;functionName&quot;:&quot;&quot;,&quot;scriptId&quot;:&quot;28&quot;,&quot;url&quot;:&quot;https://platform.twitter.com/widgets.js&quot;,&quot;lineNumber&quot;:0,&quot;columnNumber&quot;:13558},{&quot;functionName&quot;:&quot;o.run&quot;,&quot;scriptId&quot;:&quot;28&quot;,&quot;url&quot;:&quot;https://platform.twitter.com/widgets.js&quot;,&quot;lineNumber&quot;:7,&quot;columnNumber&quot;:22109},{&quot;functionName&quot;:&quot;o.flush&quot;,&quot;scriptId&quot;:&quot;28&quot;,&quot;url&quot;:&quot;https://platform.twitter.com/widgets.js&quot;,&quot;lineNumber&quot;:7,&quot;columnNumber&quot;:21669},{&quot;functionName&quot;:&quot;o.runBatch&quot;,&quot;scriptId&quot;:&quot;28&quot;,&quot;url&quot;:&quot;https://platform.twitter.com/widgets.js&quot;,&quot;lineNumber&quot;:7,&quot;columnNumber&quot;:21815},{&quot;functionName&quot;:&quot;&quot;,&quot;scriptId&quot;:&quot;28&quot;,&quot;url&quot;:&quot;https://platform.twitter.com/widgets.js&quot;,&quot;lineNumber&quot;:7,&quot;column ...
+12:42:48.813 &lt;&lt; {&quot;method&quot;:&quot;Page.frameStartedLoading&quot;,&quot;params&quot;:{&quot;frameId&quot;:&quot;D46368040E43D41E888FA3DE55762169&quot;},&quot;sessionId&quot;:&quot;956691CF0AF5036A8EB2CF79924CBE80&quot;}
+12:42:48.823 &lt;&lt; {&quot;method&quot;:&quot;Page.frameNavigated&quot;,&quot;params&quot;:{&quot;frame&quot;:{&quot;id&quot;:&quot;D46368040E43D41E888FA3DE55762169&quot;,&quot;parentId&quot;:&quot;DA74B29C1B5FC626F061E9DBDC559B3D&quot;,&quot;loaderId&quot;:&quot;7414A7DEE4753762358E1ECE0212D373&quot;,&quot;name&quot;:&quot;twitter-widget-0&quot;,&quot;url&quot;:&quot;about:blank&quot;,&quot;domainAndRegistry&quot;:&quot;&quot;,&quot;securityOrigin&quot;:&quot;://&quot;,&quot;mimeType&quot;:&quot;text/html&quot;,&quot;adFrameStatus&quot;:{&quot;adFrameType&quot;:&quot;none&quot;,&quot;explanations&quot;:[]},&quot;secureContextType&quot;:&quot;Secure&quot;,&quot;crossOriginIsolatedContextType&quot;:&quot;NotIsolated&quot;,&quot;gatedAPIFeatures&quot;:[]},&quot;type&quot;:&quot;Navigation&quot;},&quot;sessionId&quot;:&quot;956691CF0AF5036A8EB2CF79924CBE80&quot;}
+12:42:48.824 &lt;&lt; {&quot;method&quot;:&quot;Runtime.executionContextCreated&quot;,&quot;params&quot;:{&quot;context&quot;:{&quot;id&quot;:2,&quot;origin&quot;:&quot;https://semantic-ui.com&quot;,&quot;name&quot;:&quot;&quot;,&quot;uniqueId&quot;:&quot;4471287369296358584.2465161050023106124&quot;,&quot;auxData&quot;:{&quot;isDefault&quot;:true,&quot;type&quot;:&quot;default&quot;,&quot;frameId&quot;:&quot;D46368040E43D41E888FA3DE55762169&quot;}}},&quot;sessionId&quot;:&quot;956691CF0AF5036A8EB2CF79924CBE80&quot;}
+12:42:48.824 &lt;&lt; {&quot;method&quot;:&quot;Page.frameStoppedLoading&quot;,&quot;params&quot;:{&quot;frameId&quot;:&quot;D46368040E43D41E888FA3DE55762169&quot;},&quot;sessionId&quot;:&quot;956691CF0AF5036A8EB2CF79924CBE80&quot;}
+12:42:48.830 &lt;&lt; {&quot;method&quot;:&quot;Page.frameScheduledNavigation&quot;,&quot;params&quot;:{&quot;frameId&quot;:&quot;D46368040E43D41E888FA3DE55762169&quot;,&quot;delay&quot;:0,&quot;reason&quot;:&quot;scriptInitiated&quot;,&quot;url&quot;:&quot;https://platform.twitter.com/widgets/tweet_button.644279d1635fd969e87af94a98bd232b.en.html#dnt=false&amp;id=twitter-widget-0&amp;lang=en&amp;original_referer=https%3A%2F%2Fsemantic-ui.com%2Fmodules%2Fdropdown.html&amp;size=m&amp;text=Semantic%20UI%20is%20a%20next%20generation%20UI%20framework&amp;time=1670742768826&amp;type=share&amp;url=http%3A%2F%2Fsemantic-ui.com&amp;via=semanticui&quot;},&quot;sessionId&quot;:&quot;956691CF0AF5036A8EB2CF79924CBE80&quot;}
+12:42:48.831 &lt;&lt; {&quot;method&quot;:&quot;Page.frameRequestedNavigation&quot;,&quot;params&quot;:{&quot;frameId&quot;:&quot;D46368040E43D41E888FA3DE55762169&quot;,&quot;reason&quot;:&quot;scriptInitiated&quot;,&quot;url&quot;:&quot;https://platform.twitter.com/widgets/tweet_button.644279d1635fd969e87af94a98bd232b.en.html#dnt=false&amp;id=twitter-widget-0&amp;lang=en&amp;original_referer=https%3A%2F%2Fsemantic-ui.com%2Fmodules%2Fdropdown.html&amp;size=m&amp;text=Semantic%20UI%20is%20a%20next%20generation%20UI%20framework&amp;time=1670742768826&amp;type=share&amp;url=http%3A%2F%2Fsemantic-ui.com&amp;via=semanticui&quot;,&quot;disposition&quot;:&quot;currentTab&quot;},&quot;sessionId&quot;:&quot;956691CF0AF5036A8EB2CF79924CBE80&quot;}
+12:42:48.833 &lt;&lt; {&quot;method&quot;:&quot;Page.frameStartedLoading&quot;,&quot;params&quot;:{&quot;frameId&quot;:&quot;D46368040E43D41E888FA3DE55762169&quot;},&quot;sessionId&quot;:&quot;956691CF0AF5036A8EB2CF79924CBE80&quot;}
+12:42:48.836 &lt;&lt; {&quot;method&quot;:&quot;Page.frameClearedScheduledNavigation&quot;,&quot;params&quot;:{&quot;frameId&quot;:&quot;D46368040E43D41E888FA3DE55762169&quot;},&quot;sessionId&quot;:&quot;956691CF0AF5036A8EB2CF79924CBE80&quot;}
+12:42:48.932 &lt;&lt; {&quot;method&quot;:&quot;Target.targetCreated&quot;,&quot;params&quot;:{&quot;targetInfo&quot;:{&quot;targetId&quot;:&quot;D46368040E43D41E888FA3DE55762169&quot;,&quot;type&quot;:&quot;iframe&quot;,&quot;title&quot;:&quot;&quot;,&quot;url&quot;:&quot;&quot;,&quot;attached&quot;:false,&quot;canAccessOpener&quot;:false,&quot;browserContextId&quot;:&quot;86A8C5A96581C628B6730D134E17739F&quot;}},&quot;sessionId&quot;:&quot;956691CF0AF5036A8EB2CF79924CBE80&quot;}
+12:42:48.946 &lt;&lt; {&quot;method&quot;:&quot;Target.targetInfoChanged&quot;,&quot;params&quot;:{&quot;targetInfo&quot;:{&quot;targetId&quot;:&quot;D46368040E43D41E888FA3DE55762169&quot;,&quot;type&quot;:&quot;iframe&quot;,&quot;title&quot;:&quot;https://platform.twitter.com/widgets/tweet_button.644279d1635fd969e87af94a98bd232b.en.html#dnt=false&amp;id=twitter-widget-0&amp;lang=en&amp;original_referer=https%3A%2F%2Fsemantic-ui.com%2Fmodules%2Fdropdown.html&amp;size=m&amp;text=Semantic%20UI%20is%20a%20next%20generation%20UI%20framework&amp;time=1670742768826&amp;type=share&amp;url=http%3A%2F%2Fsemantic-ui.com&amp;via=semanticui&quot;,&quot;url&quot;:&quot;https://platform.twitter.com/widgets/tweet_button.644279d1635fd969e87af94a98bd232b.en.html#dnt=false&amp;id=twitter-widget-0&amp;lang=en&amp;original_referer=https%3A%2F%2Fsemantic-ui.com%2Fmodules%2Fdropdown.html&amp;size=m&amp;text=Semantic%20UI%20is%20a%20next%20generation%20UI%20framework&amp;time=1670742768826&amp;type=share&amp;url=http%3A%2F%2Fsemantic-ui.com&amp;via=semanticui&quot;,&quot;attached&quot;:false,&quot;canAccessOpener&quot;:false,&quot;browserContextId&quot;:&quot;86A8C5A96581C628B6730D134E17739F&quot;}},&quot;sessionId&quot;:&quot;956691CF0AF5036A8EB2CF79924CBE80&quot;}
+12:42:49.068 &gt;&gt; {&quot;id&quot;:13,&quot;sessionId&quot;:&quot;956691CF0AF5036A8EB2CF79924CBE80&quot;,&quot;method&quot;:&quot;Target.closeTarget&quot;,&quot;params&quot;:{&quot;targetId&quot;:&quot;DA74B29C1B5FC626F061E9DBDC559B3D&quot;}}
+12:42:49.071 &lt;&lt; {&quot;id&quot;:13,&quot;result&quot;:{&quot;success&quot;:true},&quot;sessionId&quot;:&quot;956691CF0AF5036A8EB2CF79924CBE80&quot;}
+</div>   
+
+  
+
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+

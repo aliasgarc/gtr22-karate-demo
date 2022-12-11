@@ -1,2 +1,5 @@
 examples\ExamplesTest.class
+examples\testSuite\apiTests\apiTestRunnerwithTags.class
+examples\testSuite\uiTests\uiTestRunner.class
 examples\users\UsersRunner.class
+examples\testSuite\apiTests\apiTestRunner.class

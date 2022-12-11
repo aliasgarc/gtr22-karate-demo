@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: examples.testSuite.uiTests.uiTestRunnerwithTags
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.467 s - in examples.testSuite.uiTests.uiTestRunnerwithTags
