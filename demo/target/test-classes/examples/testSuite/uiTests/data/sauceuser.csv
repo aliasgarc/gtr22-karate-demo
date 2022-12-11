@@ -1,3 +1,2 @@
  username, password
- standard_user,secret_sauce
- sproblem_userpa,secret_sauce
+ 'standard_user','secret_sauce'

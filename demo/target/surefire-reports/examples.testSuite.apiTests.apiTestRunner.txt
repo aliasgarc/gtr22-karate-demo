@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: examples.testSuite.apiTests.apiTestRunner
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 18.976 s - in examples.testSuite.apiTests.apiTestRunner
