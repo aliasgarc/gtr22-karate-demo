@@ -9,9 +9,8 @@ There's also a cross-platform stand-alone executable for teams not comfortable w
 
 Refreance-https://github.com/karatelabs/karate
 
-**TABLES OF CONTENTS:**
-    
-    Prerequisites | Installation | Dependencies | Usage | Reports
+ 
+
 
 **Getting Started:**
 
@@ -68,8 +67,15 @@ To start the test execution
 
    For Example:
 
-    -> mvn clean test "-DconfigPath=qa.yaml" "-Dtags=@CreateAndUpdateImageById"
-		
+    -> mvn test -Dtest=uiTestRunnerwith
+    -> mvn test -Dtest=uiTestRunnerwithTags  "-Dtags=@basicUITestdropdown"
+    -> mvn test -Dtest=uiTestRunnerwithTags  "-Dtags=@basicUITestdropdown"
+
+    -> mvn test -Dtest=apiTestRunner
+    -> mvn test -Dtest=apiTestRunnerwithTags  "-Dtags=@smoke"
+    -> mvn test -Dtest=apiTestRunnerwithTags  "-Dtags=@smokeyml"
+
+    
 **Reporting And Outputs:**
 
  Cucumber Html Reports:
